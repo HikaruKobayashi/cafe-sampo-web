@@ -1,11 +1,11 @@
 import styles from "../styles/Home.module.css";
+import Header from "../src/components/common/header";
+import Footer from "../src/components/common/footer";
 
 export default function Home() {
   return (
     <div>
-      <header className={styles.header}>
-        <h1>カフェさんぽ</h1>
-      </header>
+      <Header />
 
       <main className={styles.main}>
         <h2>プライバシーポリシー</h2>
@@ -50,9 +50,7 @@ export default function Home() {
         <p>最終更新日：2022年2月17日（木）</p>
       </main>
 
-      <footer className={styles.footer}>
-        <p>&copy;&nbsp;{new Date().getFullYear()}&nbsp;Kobayashi</p>
-      </footer>
+      <Footer />
     </div>
   );
 }
