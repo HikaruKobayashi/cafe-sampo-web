@@ -6,9 +6,9 @@ export default function Header() {
     <header className={styles.header}>
       <Image
         src="/images/cafe-sampo.png"
-        width={80}
-        height={80}
-        alt="app icon"
+        width={50}
+        height={50}
+        alt="カフェさんぽ アイコン"
       />
     </header>
   );
